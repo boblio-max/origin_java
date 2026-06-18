@@ -1,4 +1,4 @@
-package im.manus.origin.parser;
+package origin.parser;
 
 import im.manus.origin.lexer.Token;
 import im.manus.origin.lexer.TokenType;
