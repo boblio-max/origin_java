@@ -1,4 +1,4 @@
-package im.manus.origin.lexer;
+﻿package origin.lexer;
 
 public enum TokenType {
     NEWLINE,

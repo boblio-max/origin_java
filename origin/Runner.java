@@ -1,10 +1,10 @@
 package origin;
 
-import origin.lexer.Lexer;
-import origin.lexer.Token;
+import im.manus.origin.lexer.Lexer;
+import im.manus.origin.lexer.Token;
 import origin.parser.Parser;
-import origin.ast.ProgramNode;
-import origin.interpreter.JavaInterpreter;
+import im.manus.origin.ast.ProgramNode;
+import im.manus.origin.ast.JavaInterpreter;
 
 import java.nio.file.Files;
 import java.nio.file.Paths;

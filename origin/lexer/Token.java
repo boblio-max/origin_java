@@ -1,4 +1,4 @@
-package im.manus.origin.lexer;
+﻿package origin.lexer;
 
 public record Token(TokenType type, String value, int line, int col) {
     @Override

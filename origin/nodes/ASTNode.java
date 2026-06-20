@@ -1,4 +1,4 @@
-package im.manus.origin.ast;
+﻿package origin.nodes;
 
 import java.util.List;
 import java.util.Map;
@@ -9,7 +9,7 @@ public abstract class ASTNode {
     public ASTNode() {}
     public ASTNode(int line) { this.line = line; }
 
-    public abstract <R> R accept(ASTVisitor<R> visitor);
+    public abstract <R> R accept(ASTNode.ASTVisitor<R> visitor);
 
     public interface ASTVisitor<R> {
         R visit(ProgramNode node);
