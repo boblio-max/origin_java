@@ -27,3 +27,10 @@ Before claiming any task done, Claude MUST:
 2. Run `mvn -q test` and confirm the test suite passes.
 3. If `Runner` is invoked interactively, run `mvn -q exec:java -Dexec.mainClass=im.manus.Runner` and confirm a clean startup.
 4. Report the exact commands run and their outcomes in the final message.
+
+## GitHub account rule (AGENCY-ACCOUNT-RULE)
+This folder is a PERSONAL project of boblio-max. For ANY GitHub operation
+(gh commands, git push/pull, releases), the active account MUST be
+`boblio-max` — NEVER the Storefront Web agency account.
+Check first: `gh auth status`. If another account is active, run
+`gh auth switch --user boblio-max` before proceeding.
